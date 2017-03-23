@@ -28,7 +28,9 @@ $config_db =  array(
     'DB_PREFIX' => 'savor_',
     'DB_DEBUG'  =>  TRUE,
     'DB_PARAMS' => array(\PDO::ATTR_CASE => \PDO::CASE_NATURAL),
- 	'REDIS_CONFIG' => $redis,
+
+    'REDIS_CONFIG' => $redis,
+
     
     //OSSS上传配置
 	'OSS_ACCESS_ID'   => 'tnDh4AQqRYbV9mq8',
