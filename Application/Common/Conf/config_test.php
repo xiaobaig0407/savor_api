@@ -27,8 +27,8 @@ $config_db =  array(
     'DB_CHARSET' => 'UTF8',
     'DB_PREFIX' => 'savor_',
     'DB_DEBUG'  =>  TRUE,
-
- 	'REDIS_CONFIG' => $redis,
+    'DB_PARAMS' => array(\PDO::ATTR_CASE => \PDO::CASE_NATURAL),
+    'REDIS_CONFIG' => $redis,
     
     //OSSS上传配置
 	'OSS_ACCESS_ID'   => 'tnDh4AQqRYbV9mq8',
