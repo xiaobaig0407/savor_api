@@ -27,7 +27,7 @@ $config_db =  array(
     'DB_CHARSET' => 'UTF8',
     'DB_PREFIX' => 'savor_',
     'DB_DEBUG'  =>  TRUE,
-
+    'DB_PARAMS' => array(\PDO::ATTR_CASE => \PDO::CASE_NATURAL),
  	'REDIS_CONFIG' => $redis,
     
     //OSSS上传配置
@@ -38,7 +38,12 @@ $config_db =  array(
 	'OSS_SYNC_CALLBACK_URL'=>'alioss/syncNotify', //上传异步回调地址
     //end
 );
-return $config_db;
+$config_api_host = array(
+'CONTENT_HOST' => 'http://devp.admin.rerdian.com/',
+
+);
+
+return array_merge($config_db,$config_api_host);
 
 
 
