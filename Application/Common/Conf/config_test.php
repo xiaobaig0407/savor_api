@@ -38,13 +38,13 @@ $config_db =  array(
 	//'OSS_HOST'    => 'oss-cn-beijing.aliyuncs.com',  //注意不要在前面加 http://
     'OSS_ACCESS_ID' =>'LTAITjXOpRHKflOX',
     'OSS_ACCESS_KEY'=>'Q1t8XSK8q82H3s8jaLq9NqWx7Jsgkt',
-    'OSS_HOST'=> 'devp.oss.rerdian.com',               //注意不要在前面加 http://
+    'OSS_HOST'=> 'devp.oss.littlehotspot.com',               //注意不要在前面加 http://
     'OSS_BUCKET' => 'redian-development',                     //资源空间,即桶
 	'OSS_SYNC_CALLBACK_URL'=>'alioss/syncNotify', //上传异步回调地址
     //end
 );
 $config_api_host = array(
-'CONTENT_HOST' => 'http://devp.admin.rerdian.com/',
+'CONTENT_HOST' => 'http://devp.admin.littlehotspot.com/',
 
 );
 
