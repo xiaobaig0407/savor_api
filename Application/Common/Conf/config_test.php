@@ -61,6 +61,7 @@ $config_db =  array(
 $config_api_host = array(
 'CONTENT_HOST' => 'http://devp.admin.littlehotspot.com/',
     'IMG_UP_SUBCONTACT' => 'http://devp.oss.littlehotspot.com/log/resource/standalone/mobile',
+    'TASK_REPAIR_IMG' => 'http://devp.oss.littlehotspot.com/log/mobile',
 
 );
 
