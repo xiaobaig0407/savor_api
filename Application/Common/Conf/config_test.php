@@ -71,6 +71,8 @@ $config_db =  array(
     'OSS_BUCKET' => 'redian-development',                     //资源空间,即桶
 	'OSS_SYNC_CALLBACK_URL'=>'alioss/syncNotify', //上传异步回调地址
 	'UMENG_PRODUCTION_MODE'=>'false',
+    'NETTY_BALANCE_URL'=>'https://api-nzb.littlehotspot.com/netty/position',
+    'NETTY_PUSH_BOX_URL'=>'https://netty-push.littlehotspot.com/push/box',
     //end
 );
 $config_api_host = array(
