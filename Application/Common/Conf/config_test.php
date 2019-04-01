@@ -67,18 +67,18 @@ $config_db =  array(
 	//'OSS_HOST'    => 'oss-cn-beijing.aliyuncs.com',  //注意不要在前面加 http://
     'OSS_ACCESS_ID' =>'LTAITjXOpRHKflOX',
     'OSS_ACCESS_KEY'=>'Q1t8XSK8q82H3s8jaLq9NqWx7Jsgkt',
-    'OSS_HOST'=> 'devp.oss.littlehotspot.com',               //注意不要在前面加 http://
+    'OSS_HOST'=> 'dev-oss.littlehotspot.com',               //注意不要在前面加 http://
     'OSS_BUCKET' => 'redian-development',                     //资源空间,即桶
 	'OSS_SYNC_CALLBACK_URL'=>'alioss/syncNotify', //上传异步回调地址
 	'UMENG_PRODUCTION_MODE'=>'false',
-    'NETTY_BALANCE_URL'=>'https://api-nzb.littlehotspot.com/netty/position',
-    'NETTY_PUSH_BOX_URL'=>'https://netty-push.littlehotspot.com/push/box',
+    'NETTY_BALANCE_URL'=>'https://dev-api-nzb.littlehotspot.com/netty/position',
+    'NETTY_PUSH_BOX_URL'=>'https://dev-netty-push.littlehotspot.com/push/box',
     //end
     //热点投屏小程序配置
     'SMALLAPP_CONFIG'=>array('cache_key'=>'smallapp_token','appid'=>'wxe59b125a3f073901','appsecret'=>'423b1a65b84eacd4c13ab791b3a7edb1'),
      'SMALLAPP_SIMPLE_CONFIG'=>array('cache_key'=>'smallapp_simple_token','appid'=>'wxe59b125a3f073901','appsecret'=>'423b1a65b84eacd4c13ab791b3a7edb1'),
-     'SMALLAPP_JIJIAN_CONFIG'=>array('cache_key'=>'smallapp_jijian_token','appid'=>'wx7883a4327329a67c','appsecret'=>'da423755cc5b734db6f7a8dd7563a581'),
-     'SMALLAPP_DINNER_CONFIG'=>array('cache_key'=>'smallapp_dinner_token','appid'=>'wxc395eb4b44563af1','appsecret'=>'12bdfa28a3a1e842e965034a0a277ed3'),
+     'SMALLAPP_JIJIAN_CONFIG'=>array('cache_key'=>'smallapp_jijian_token','appid'=>'wx8ab347a4157b133f','appsecret'=>'31f8a73ce84a1b4c1cb0cf8bcbcf432a'),
+     'SMALLAPP_DINNER_CONFIG'=>array('cache_key'=>'smallapp_dinner_token','appid'=>'wx329d3de0b91b00a2','appsecret'=>'21c633e1bec94f8fbdd1f73759e6f6ce'),
     
 );
 $config_api_host = array(
